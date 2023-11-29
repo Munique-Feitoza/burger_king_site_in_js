@@ -1,0 +1,47 @@
+.p1 {
+  font-family: 'Flame-Bold';
+}
+.p2 {
+  font-family: 'Flame-Regular';
+}
+.p3 {
+  font-family: 'Flame-Condensed';
+}
+.p4 {
+  font-family: 'Flame-Sans';
+}
+.p5 {
+  font-family: 'Flame-Sans-Regular';
+}
+
+@font-face {
+    font-family: 'Flame-Bold';
+    src: url('./assets/fonts/Flame-Bold.woff') format('woff'),
+        url('./assets/fonts/FlameBold.otf') format('opentype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Flame-Regular';
+    src: url('./assets/fonts/Flame-Regular.woff'), format('woff'),
+        url('./assets/fonts/FlameRegular.otf') format('opentype');
+    font-style: normal;
+}
+ 
+@font-face {
+    font-family: 'Flame-Condensed';
+    src: url('./assets/fonts/FlameCondensed.otf') format('opentype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Flame-Sans';
+    src: url('./assets/fonts/FlameSans.otf') format('opentype');
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'Flame-Sans-Regular';
+  src: url('./assets/fonts/FlameSans-Regular.woff') format('woff');
+  font-style: normal;
+}
