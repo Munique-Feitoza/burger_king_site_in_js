@@ -3,6 +3,18 @@
     line-height: 1em;
 }
 
+.logo_responsive_wrapper {
+  position: relative;
+  z-index: 2;
+  max-width: 50%;
+  max-height: 7.2em;
+  border-radius: 0%;
+  width: 5em;
+  height: 5em;
+  min-width: 5em;
+  min-height: 5em;
+}
+
 @media only screen and (max-width: 360px) and (min-width: 300px)  {
     .responsive-wrapper{
         font-size: 9px;
