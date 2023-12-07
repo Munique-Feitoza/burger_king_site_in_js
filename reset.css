@@ -63,6 +63,10 @@ table {
   font-family: 'Flame-Sans-Regular';
 }
 
+a {
+  font-family: 'Flame-Regular';
+}
+
 @font-face {
     font-family: 'Flame-Bold';
     src: url('./assets/fonts/Flame-Bold.woff') format('woff'),
