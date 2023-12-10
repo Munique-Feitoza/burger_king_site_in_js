@@ -67,6 +67,7 @@ a {
 li > a {
   display: flex;
   flex-direction: column;
+  margin: 0.5rem 1rem;
   font-size: 12px;
 }
 
@@ -75,6 +76,10 @@ li > a > figure {
   flex-direction: column;
 }
 
+li > a > figure > img {
+  padding-bottom: 5px;
+  margin: auto;
+}
 
 
 @media only screen and (max-width: 360px) and (min-width: 300px)  {
