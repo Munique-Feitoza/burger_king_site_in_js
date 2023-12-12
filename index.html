@@ -8,8 +8,8 @@
   <!-- CSS -->
   <link rel="stylesheet" href="./index.css">
   <link rel="stylesheet" href="./reset.css">
-  <link rel="stylesheet" href="./pages/css/inicio.css">
-
+  <link rel="stylesheet" href="./global.css">
+  
   <!-- FAVICON -->
   <link rel="icon" type="image/x-icon" href="./assets/img/favicon/favicon-32x32.ico">
   <link rel="shortcut icon" type="image/x-icon" href="./assets/img/favicon/icon_64x64.c89b16.png">
@@ -20,10 +20,10 @@
 <!-- PROJECT -->
 <!-- responsive wrapper -->
 <body>
-  <div style="display: flex; padding: 1rem;background-color:rgba(255, 185, 6, 1);">
+  <div style="display: flex; padding: 1rem;background-color:rgba(255, 185, 6, 1);" class="responsive_wrapper">
     <div style="display: flex;">
       <div>
-        <button>
+        <button class="responsive_wrapper_btn">
           <svg width="1.7em" height="1.7em" viewBox="0 0 24 24" style="padding:1em 0.4em 1em 0;border-radius:41%;background-color:rgba(255, 255, 255, 0)" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12L19 6.41Z" fill="rgba(80, 35, 20, 1)"></path>
           </svg>
@@ -108,25 +108,33 @@
        </a>
      </li>
      <li>
-       <a href="#">
+       <a href="#" class="app_navigation_menu">
            <svg width="24" height="24" data-v-c8092722=""><use xlink:href="#plus" data-v-c8092722=""></use><svg data-v-c8092722=""><symbol id="plus" viewBox="0 0 22 14" xml:space="preserve" style="enable-background: new 0 0 22 14;" data-v-c8092722=""><path d="M11,0.5c3,0,6,0,8.9,0c0.8,0,1.4,0.6,1.5,1.2c0.2,1-0.4,1.9-1.4,1.9c-0.1,0-0.2,0-0.3,0c-5.8,0-11.5,0-17.3,0 c-0.2,0-0.4,0-0.7,0C1,3.4,0.4,2.7,0.5,1.9C0.5,1.1,1.2,0.5,2,0.5C5,0.5,8,0.5,11,0.5z" data-v-c8092722=""></path> <path d="M11,5.5c3,0,6,0,8.9,0c0.8,0,1.4,0.6,1.5,1.2c0.2,1-0.4,1.9-1.4,1.9c-0.1,0-0.2,0-0.3,0c-5.8,0-11.5,0-17.3,0 c-0.2,0-0.4,0-0.7,0C1,8.4,0.4,7.7,0.5,6.9C0.5,6.1,1.2,5.5,2,5.5C5,5.5,8,5.5,11,5.5z" data-v-c8092722=""></path> <path d="M11,10.5c3,0,6,0,8.9,0c0.8,0,1.4,0.6,1.5,1.2c0.2,1-0.4,1.9-1.4,1.9c-0.1,0-0.2,0-0.3,0 c-5.8,0-11.5,0-17.3,0c-0.2,0-0.4,0-0.7,0c-0.8-0.1-1.4-0.8-1.3-1.6c0.1-0.8,0.7-1.4,1.5-1.4C5,10.5,8,10.5,11,10.5z" data-v-c8092722=""></path></symbol></svg></svg>
            Menu
        </a>
      </li>
    </ul>
  </div>
+ <div>
+   <div>
+     <div style="display:flex; flex-direction:row;">
+       <a href="https://www.burgerking.com.br/">
+         <img src="./assets/img/imagens_menu/BK-novo-logo.svg" alt="LogoBK" height="48px" />
+       </a>
+       <a href="/login" data-v-c8092722="" class="">
+         <svg width="18" height="21" viewBox="0 0 18 21" fill="none" xmlns="http://www.w3.org/2000/svg" data-v-c8092722="">
+           <path d="M8.99961 0C6.02205 0 3.59961 2.42244 3.59961 5.4C3.59961 8.37756 6.02205 10.8 8.99961 10.8C11.9772 10.8 14.3996 8.37756 14.3996 5.4C14.3996 2.42244 11.9772 0 8.99961 0Z" fill="#fff" data-v-c8092722=""></path> 
+           <path d="M15.7186 14.3278C14.2402 12.8267 12.2804 12 10.2 12H7.8C5.71968 12 3.75976 12.8267 2.28136 14.3278C0.8102 15.8216 0 17.7933 0 19.88C0 20.2114 0.26864 20.48 0.6 20.48H17.4C17.7314 20.48 18 20.2114 18 19.88C18 17.7933 17.1898 15.8216 15.7186 14.3278Z" fill="#fff" data-v-c8092722=""></path>
+         </svg>
+       </a>
+     </div>
+     <div>
+       
+     </div>
+   </div>
+ </div>
  <!-- site footer -->
- <div id="appNavigation" class="bottom-fixed-nav" data-v-c8092722=""><ul class="menu-fixed-list d-flex p-0" data-v-c8092722=""><li data-v-c8092722=""><a href="/" aria-current="page" class="nuxt-link-exact-active nuxt-link-active" data-v-c8092722=""><figure data-v-c8092722=""><img src="https://d3sn2rlrwxy0ce.cloudfront.net/home-ico.svg?mtime=20210211101156&amp;focal=none" alt="Início" title="Início" class="menu-icons-contrast" data-v-c8092722=""></figure>
-					Início
-				</a></li><li data-v-c8092722=""><a href="/cupons" data-v-c8092722="" class=""><figure data-v-c8092722=""><img src="https://d3sn2rlrwxy0ce.cloudfront.net/cupons-ico.svg?mtime=20210211101156&amp;focal=none" alt="Cupons" title="Cupons" class="menu-icons-contrast" data-v-c8092722=""></figure>
-					Cupons
-				</a></li><li data-v-c8092722=""><a href="/cardapio" data-v-c8092722="" class=""><figure data-v-c8092722=""><img src="https://d3sn2rlrwxy0ce.cloudfront.net/cardapio-ico.svg?mtime=20210211101155&amp;focal=none" alt="Cardápio" title="Cardápio" class="menu-icons-contrast" data-v-c8092722=""></figure>
-					Cardápio
-				</a></li><li data-v-c8092722=""><a href="/restaurantes" data-v-c8092722="" class=""><figure data-v-c8092722=""><img src="https://d3sn2rlrwxy0ce.cloudfront.net/lojas-ico.svg?mtime=20210211101157&amp;focal=none" alt="Restaurantes" title="Restaurantes" class="menu-icons-contrast" data-v-c8092722=""></figure>
-					Restaurantes
-				</a></li> <li data-v-c8092722=""><a href="#" alt="Menu" title="Menu" data-v-c8092722=""><svg width="24" data-v-c8092722=""><use xlink:href="#plus" data-v-c8092722=""></use></svg>
-					Menu
-				</a></li></ul> <div class="menu-options " style="background-color:#f5ebdc;" data-v-c8092722=""><div class="options" data-v-c8092722=""><nav data-v-c8092722=""><ul data-v-c8092722=""><li class="logo" data-v-c8092722=""><a href="/" aria-current="page" class="nuxt-link-exact-active nuxt-link-active" data-v-c8092722=""><figure class="menu-logo-mobile" data-v-c8092722=""><img src="/images/bklogos/BK-novo-logo.svg" alt="Logo BK" data-v-c8092722=""></figure></a> <a href="/login" data-v-c8092722="" class=""><svg width="18" height="21" viewBox="0 0 18 21" fill="none" xmlns="http://www.w3.org/2000/svg" data-v-c8092722=""><path d="M8.99961 0C6.02205 0 3.59961 2.42244 3.59961 5.4C3.59961 8.37756 6.02205 10.8 8.99961 10.8C11.9772 10.8 14.3996 8.37756 14.3996 5.4C14.3996 2.42244 11.9772 0 8.99961 0Z" fill="#fff" data-v-c8092722=""></path> <path d="M15.7186 14.3278C14.2402 12.8267 12.2804 12 10.2 12H7.8C5.71968 12 3.75976 12.8267 2.28136 14.3278C0.8102 15.8216 0 17.7933 0 19.88C0 20.2114 0.26864 20.48 0.6 20.48H17.4C17.7314 20.48 18 20.2114 18 19.88C18 17.7933 17.1898 15.8216 15.7186 14.3278Z" fill="#fff" data-v-c8092722=""></path></svg></a></li> <li data-v-c8092722=""><!----> <a href="/" aria-current="page" alt="Início" title="Início" class="nuxt-link-exact-active nuxt-link-active" style="color:#f5ebdc;" data-v-c8092722=""><span data-v-c8092722="">
+<div class="menu-options " style="background-color:#f5ebdc;" data-v-c8092722=""><div class="options" data-v-c8092722=""><nav data-v-c8092722=""><ul data-v-c8092722=""><li class="logo" data-v-c8092722=""><a href="/" aria-current="page" class="nuxt-link-exact-active nuxt-link-active" data-v-c8092722=""><figure class="menu-logo-mobile" data-v-c8092722=""><img src="/images/bklogos/BK-novo-logo.svg" alt="Logo BK" data-v-c8092722=""></figure></a> <a href="/login" data-v-c8092722="" class=""><svg width="18" height="21" viewBox="0 0 18 21" fill="none" xmlns="http://www.w3.org/2000/svg" data-v-c8092722=""><path d="M8.99961 0C6.02205 0 3.59961 2.42244 3.59961 5.4C3.59961 8.37756 6.02205 10.8 8.99961 10.8C11.9772 10.8 14.3996 8.37756 14.3996 5.4C14.3996 2.42244 11.9772 0 8.99961 0Z" fill="#fff" data-v-c8092722=""></path> <path d="M15.7186 14.3278C14.2402 12.8267 12.2804 12 10.2 12H7.8C5.71968 12 3.75976 12.8267 2.28136 14.3278C0.8102 15.8216 0 17.7933 0 19.88C0 20.2114 0.26864 20.48 0.6 20.48H17.4C17.7314 20.48 18 20.2114 18 19.88C18 17.7933 17.1898 15.8216 15.7186 14.3278Z" fill="#fff" data-v-c8092722=""></path></svg></a></li> <li data-v-c8092722=""><!----> <a href="/" aria-current="page" alt="Início" title="Início" class="nuxt-link-exact-active nuxt-link-active" style="color:#f5ebdc;" data-v-c8092722=""><span data-v-c8092722="">
 									Início
 								</span></a></li><li data-v-c8092722=""><!----> <a href="/cupons" alt="Cupons" title="Cupons" style="color:#f5ebdc;" data-v-c8092722="" class=""><span data-v-c8092722="">
 									Cupons
@@ -141,10 +149,9 @@
 								</span></a></li><li data-v-c8092722=""><!----> <a alt="Delivery" title="Delivery" target="_blank" href="https://delivery.burgerking.com.br/?utm_source=site&amp;utm_medium=delivery-proprio&amp;utm_campaign=ginga_burger-king_site_dogpper_delivery-proprio_site_banner_dogpper_bk-lovers_cpc" style="color: #f5ebdc;" data-v-c8092722=""><span data-v-c8092722="">
 									Delivery
 								</span></a></li></ul></nav></div> <div class="accessibility inactive" style="--background-color: #d62300; --button-active-color: #ffffff; --button-active-text-color: #d62300; --button-color: #d62300; --button-text-color: #ffffff; --text-color: #f5ebdc;" data-v-c8092722=""><button class="arrow-acessibility" data-v-c8092722=""></button> <h3 class="title" data-v-c8092722="">Acessibilidade</h3> <ul data-v-c8092722=""><li class="wrapper-contrast" data-v-c8092722=""><h4 data-v-c8092722="">Alto - contraste</h4> <div class="center" data-v-c8092722=""><input type="checkbox" name="auto_contrast" data-v-c8092722=""></div></li> <li class="wrapper-font" data-v-c8092722=""><h4 data-v-c8092722="">Tamanho da fonte</h4> <div class="select-font" data-v-c8092722=""><div class="fz" data-v-c8092722=""><input id="standard" checked="checked" type="radio" name="fz" data-v-c8092722=""> <label for="standard" data-v-c8092722=""><h4 data-v-c8092722="">Padrão</h4></label></div> <div class="fz" data-v-c8092722=""><input id="big" type="radio" name="fz" data-v-c8092722=""> <label for="big" data-v-c8092722=""><h4 data-v-c8092722="">Grande</h4></label></div> <div class="fz" data-v-c8092722=""><input id="extra-big" type="radio" name="fz" data-v-c8092722=""> <label for="extra-big" data-v-c8092722=""><h4 data-v-c8092722="">Extra grande</h4></label></div></div></li></ul></div></div> <svg display="none" data-v-c8092722=""><symbol id="plus" viewBox="0 0 22 14" xml:space="preserve" style="enable-background: new 0 0 22 14;" data-v-c8092722=""><path d="M11,0.5c3,0,6,0,8.9,0c0.8,0,1.4,0.6,1.5,1.2c0.2,1-0.4,1.9-1.4,1.9c-0.1,0-0.2,0-0.3,0c-5.8,0-11.5,0-17.3,0 c-0.2,0-0.4,0-0.7,0C1,3.4,0.4,2.7,0.5,1.9C0.5,1.1,1.2,0.5,2,0.5C5,0.5,8,0.5,11,0.5z" data-v-c8092722=""></path> <path d="M11,5.5c3,0,6,0,8.9,0c0.8,0,1.4,0.6,1.5,1.2c0.2,1-0.4,1.9-1.4,1.9c-0.1,0-0.2,0-0.3,0c-5.8,0-11.5,0-17.3,0 c-0.2,0-0.4,0-0.7,0C1,8.4,0.4,7.7,0.5,6.9C0.5,6.1,1.2,5.5,2,5.5C5,5.5,8,5.5,11,5.5z" data-v-c8092722=""></path> <path d="M11,10.5c3,0,6,0,8.9,0c0.8,0,1.4,0.6,1.5,1.2c0.2,1-0.4,1.9-1.4,1.9c-0.1,0-0.2,0-0.3,0 c-5.8,0-11.5,0-17.3,0c-0.2,0-0.4,0-0.7,0c-0.8-0.1-1.4-0.8-1.3-1.6c0.1-0.8,0.7-1.4,1.5-1.4C5,10.5,8,10.5,11,10.5z" data-v-c8092722=""></path></symbol></svg></div>
-
-
   <!-- JS -->
   <script src="./index.js"></script>
+  <script src="./global.js"></script>
 </body>
 
 </html>

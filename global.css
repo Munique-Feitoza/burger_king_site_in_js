@@ -1,0 +1,120 @@
+button {
+  all: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: #50231288;
+}
+
+.logo_responsive_wrapper {
+  position: relative;
+  z-index: 2;
+  max-width: 50%;
+  max-height: 50%;
+  border-radius: 0%;
+  width: 5em;
+  height: 5em;
+  min-width: 4em;
+  min-height: 4em;
+}
+
+.btn_responsive_wrapper {
+  position: relative;
+  height: 2.8em;
+  border-width: .1em;
+  border-style: solid;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0.5rem 0 0.5rem 0.5rem;
+  background-color: rgba(214, 35, 0, 1);
+  border-color: rgba(0, 0, 0, 0);
+  border-radius: 1rem;
+  width: fit-content;
+}
+
+.btn_responsive_wrapper > button {
+  font-size: 1.3em;
+  word-break: initial;
+  line-height: 1em;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  margin: 0 1rem;
+  color: rgba(255, 255, 255, 1);
+  font-family: Flame-Sans;
+  font-weight: 700;
+  font-size: 17px;
+  text-transform: capitalize;
+  background: transparent;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+
+.app_navigation {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background-color: #F5EBDC;
+  color: #50231288;
+}
+
+.app_navigation > ul > li {
+  width: 80px;
+  height: 60px;
+}
+
+li > a {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem 1rem;
+  font-size: 12px;
+}
+
+li > a > figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0.2em;
+}
+
+li > a > figure > img {
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+li > a > svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.2em;
+  color: #50231288;
+}
+
+
+@media only screen and (max-width: 360px) and (min-width: 300px)  {
+    .responsive-wrapper{
+        font-size: 9px;
+    }
+}
+
+@media only screen and (max-width: 390px) and (min-width: 360px)  {
+    .responsive-wrapper{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width: 375px)  {
+    .responsive-wrapper{
+        font-size: 12px;
+    }
+}
