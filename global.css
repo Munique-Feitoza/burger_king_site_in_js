@@ -185,6 +185,7 @@ li > a > svg {
 }
 
 
+
 @media only screen and (max-width: 360px) and (min-width: 300px)  {
     .responsive-wrapper{
         font-size: 9px;
