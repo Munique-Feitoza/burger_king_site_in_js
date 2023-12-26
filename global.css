@@ -8,7 +8,7 @@ a {
 }
 
 .responsive_wrapper {
-  z-index: 2;
+  z-index: 7;
 }
 
 .logo_responsive_wrapper {
@@ -65,12 +65,16 @@ a {
   height: 60px;
   background-color: #F5EBDC;
   color: #50231288;
-  z-index: 2;
+  z-index: 7;
 }
 
 .app_navigation > ul > li {
   width: 80px;
   height: 60px;
+}
+
+header > div > a > img {
+  z-index: 7;
 }
 
 li > a {
