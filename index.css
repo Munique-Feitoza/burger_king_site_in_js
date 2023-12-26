@@ -4,6 +4,44 @@ picture > img {
   width: 100%;
 }
 
-picture > img > a > button {
-  
+.slider{
+  overflow: hidden;
+}
+
+.slider-content{
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  transition: all 500ms ease;
+}
+
+.slider-item {
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+.slider-radio-conteiner > input:nth-child(1):checked ~ .slider-content{
+  transform: translateX(0%);
+}
+
+.slider-radio-conteiner > input:nth-child(2):checked ~ .slider-content{
+  transform: translateX(-100%);
+}
+.slider-radio-conteiner > input:nth-child(3):checked ~ .slider-content{
+  transform: translateX(-200%);
+}
+
+.slider-radio-conteiner > input:nth-child(4):checked ~ .slider-content{
+  transform: translateX(-300%);
+}
+
+.slider-radio-conteiner {
+  position: absolute;
+  left: 38%;
+  top: 105%;
+}
+
+.slider-radio {
+  position: relative;
+  z-index: 6;
 }
