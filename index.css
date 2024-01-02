@@ -73,3 +73,8 @@ picture > img {
   justify-content: center;
   align-items: center;
 }
+
+input {
+  margin: 20px;
+  
+}
