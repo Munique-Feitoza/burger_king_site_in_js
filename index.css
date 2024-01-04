@@ -74,7 +74,23 @@ picture > img {
   align-items: center;
 }
 
-input {
+.search > div > input {
   margin: 20px;
-  
+  border: none;
+  border-radius: 10px;
+}
+
+.search > div > h2 {
+  margin: 2rem;
+  font-size: 25px;
+}
+
+.search > div > h4 {
+  font-size: 22.8px;
+}
+
+.app {
+  background-color: #D62300;
+  display: flex;
+  width: 100%;
 }
