@@ -31,3 +31,8 @@ h4 {
 .centavos {
   font-size: 14px;
 }
+
+.ofertas > img {
+  height: 110px;
+  width: 110px;
+}
